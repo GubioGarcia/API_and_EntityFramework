@@ -7,14 +7,14 @@ using ModuloAPI.Entities;
 
 namespace ModuloAPI.Context
 {
+    // Classe resposavel por acessar o DB
     public class AgendaContext : DbContext
     {
-        // Recebe a conexão com o banco de dados e tranfere para a classe base q inicia a conexão
-        public AgendaContext(DbContextOptions<AgendaContext> options) : base(options){
+        // Recebe a conexão com o DB e tranfere para a classe base q inicia a conexão
+        public AgendaContext(DbContextOptions<AgendaContext> options) : base(options)
+        {}
 
-        }
-
-        // entidade = classe no programa e uma tabela no DB
+        // entidade DbSet -> classe no programa e uma tabela no DB
         public DbSet<Contato> Contatos { get; set; }
     }
 }
