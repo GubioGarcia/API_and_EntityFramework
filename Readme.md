@@ -31,7 +31,7 @@ A sua classe principal, a classe contato:
 | GET    | /Contato/ObterPorTelefone  | titulo    | N/A           |
 | GET    | /Contato/ObterPorAtividade | boolean   | N/A           |
 
-Esse é o schema (model) de Tarefa, utilizado para passar para os métodos que exigirem:
+Esse é o schema (model) de Contato, utilizado para passar para os métodos que exigirem:
 
 ```json
 {
