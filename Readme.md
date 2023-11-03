@@ -10,13 +10,13 @@ Aplicação do tipo Web API com CRUD, permite o usuário obter os registros, cri
 
 A sua classe principal, a classe contato:
 
-![Diagrama da classe Contato](Arquivos\\diagrama.png)
+![Diagrama da classe Contato](./Arquivos/diagrama.png)
 
 ## API
 
 **Swagger**
 
-![Métodos Swagger](Arquivos\\swagger.png)
+![Métodos Swagger](./Arquivos/swagger.png)
 
 
 **Endpoints**
